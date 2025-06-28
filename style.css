@@ -49,6 +49,71 @@ header {
 
 /* da担当header---ここまで--- */
 
+/* wataru担当 カルーセル ---ここから--- */
+.slider {
+  height: 50vh;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider-item {
+  min-width: 100%;
+  animation: sliderAnime 12s ease-in-out infinite;
+}
+
+.slider__img {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+/* アニメーションの設定 */
+@keyframes sliderAnime {
+  0% {
+  }
+  12.5% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  37.5% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  62.5% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-200%);
+  }
+  87.5% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+/* ヒーローセクションテキスト */
+.welcome {
+  color: rgb(161, 156, 142);
+  padding-top: 1.2rem;
+  font-size: 3rem;
+}
+
+.cafe-recursion {
+  color: rgb(161, 156, 142);
+  padding-top: 1.2rem;
+  font-size: 3rem;
+}
+/* wataru担当 カルーセル ---ここまで--- */
+
 /* Kuma担当メインコンテンツ---ここから--- */
 
 /* カード設定 */
