@@ -7,22 +7,44 @@
 /* da担当header---ここから--- */
 /* ヘッダー全体を横並びに */
 header {
-  display: flex;
-  align-items: center; /* 縦位置を揃える */
-  gap: 20px;
-  padding: 15px;
-}
-
-/* タイトル部分 */
-.mainTitle {
-  margin: 0;
-  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /* メニューバー内の項目を横並びに */
 .nav-bar {
   display: flex;
-  gap: 20px; /* メニュー項目の間隔 */
+  padding-left: 12px;
+}
+
+/* タイトル部分 */
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* デフォルトの上書き */
+.navbar-brand:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-list {
+  display: flex; /* デフォルト(display:list-item)の上書き */
+  padding-left: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0.5rem 0.5rem;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 0, 0.9);
 }
 
 /* da担当header---ここまで--- */
