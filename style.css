@@ -103,14 +103,64 @@ header {
 /* ヒーローセクションテキスト */
 .welcome {
   color: rgb(161, 156, 142);
-  padding-top: 1.2rem;
-  font-size: 3rem;
+  padding-top: 1rem;
+  font-size: 2.4rem;
 }
 
 .cafe-recursion {
   color: rgb(161, 156, 142);
-  padding-top: 1.2rem;
-  font-size: 3rem;
+  padding-top: 1rem;
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    height: 30vh;
+  }
+  
+  .welcome {
+    font-size: 2.4rem;
+    padding-top: 1rem;
+  }
+
+  .core-recursion {
+    font-size: 2.4rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .slider {
+    height: 30vh;
+  }
+
+  .welcome {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+  .cafe-recursion {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .slider {
+    height: 30vh;
+  }
+
+  .welcome {
+    font-size: 1.4rem;
+    padding-top: 0.7rem;
+  }
+
+  .cafe-recursion {
+    font-size: 1.4rem;
+    padding-top: 0;
+  }
+
 }
 /* wataru担当 カルーセル ---ここまで--- */
 
