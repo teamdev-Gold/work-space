@@ -74,43 +74,99 @@ header {
 @keyframes sliderAnime {
   0% {
   }
-  12.5% {
+  10% {
     transform: translateX(0);
   }
-  25% {
+  20% {
     transform: translateX(0);
   }
-  37.5% {
+  30% {
+    transform: translateX(-100%);
+  }
+  40% {
     transform: translateX(-100%);
   }
   50% {
-    transform: translateX(-100%);
-  }
-  62.5% {
     transform: translateX(-200%);
   }
-  75% {
+  60% {
     transform: translateX(-200%);
   }
-  87.5% {
+  70% {
     transform: translateX(-300%);
+  }
+  80% {
+    transform: translateX(-300%);
+  }
+  90% {
+    transform: translateX(-400%);
   }
   100% {
-    transform: translateX(-300%);
+    transform: translateX(-400%);
   }
 }
 
 /* ヒーローセクションテキスト */
 .welcome {
   color: rgb(161, 156, 142);
-  padding-top: 1.2rem;
-  font-size: 3rem;
+  padding-top: 1rem;
+  font-size: 2.4rem;
 }
 
 .cafe-recursion {
   color: rgb(161, 156, 142);
-  padding-top: 1.2rem;
-  font-size: 3rem;
+  padding-top: 1rem;
+  font-size: 2.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  .slider {
+    height: 30vh;
+  }
+  
+  .welcome {
+    font-size: 2.4rem;
+    padding-top: 1rem;
+  }
+
+  .core-recursion {
+    font-size: 2.4rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .slider {
+    height: 30vh;
+  }
+
+  .welcome {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+  .cafe-recursion {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .slider {
+    height: 30vh;
+  }
+
+  .welcome {
+    font-size: 1.4rem;
+    padding-top: 0.7rem;
+  }
+
+  .cafe-recursion {
+    font-size: 1.4rem;
+    padding-top: 0;
+  }
+
 }
 /* wataru担当 カルーセル ---ここまで--- */
 
