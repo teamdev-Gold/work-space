@@ -1,0 +1,54 @@
+/* 共通設定 */
+/* フォントの設定 */
+.nothing-you-could-do {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+/* header */
+/* ヘッダー全体を横並びに */
+header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* メニューバー内の項目を横並びに */
+.nav-bar {
+  display: flex;
+  padding-left: 12px;
+}
+
+/* タイトル部分 */
+.navbar-brand {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* デフォルトの上書き */
+.navbar-brand:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-list {
+  display: flex; /* デフォルト(display:list-item)の上書き */
+  padding-left: 0;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0.5rem 0.5rem;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* footer */
+.copy-right {
+  text-align: right;
+  font-size: 0.8rem;
+}
