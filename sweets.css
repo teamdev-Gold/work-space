@@ -47,6 +47,11 @@ header {
   color: rgba(0, 0, 0, 0.9);
 }
 
+.card-img-top {
+  object-fit: cover;
+  height: 250px;
+}
+
 /* footer */
 .copy-right {
   text-align: right;
