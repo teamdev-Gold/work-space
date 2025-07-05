@@ -1,0 +1,40 @@
+.drink-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.drink-section {
+  width: 600px;
+}
+
+.drink-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.drink-title span {
+  border-bottom: black solid 1px;
+  padding: 0px 40px;
+}
+
+.drink-name {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.drink-price {
+  margin-bottom: 10px;
+}
+
+.drink-item {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: right;
+  font-size: 0.8rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 20px 10px 0px;
+}
